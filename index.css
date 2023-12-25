@@ -1,0 +1,48 @@
+body{
+background:url("Background.jpg");
+background-size:cover;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:60vh;
+}
+.phone
+{
+    background-color: RGB(1,50,67);
+    width: 25%;
+    height: 63%;
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+.value{
+    background-color: white;
+    width: 15%;
+    height:63%;
+    text-align: left;
+    font-family:  Arial, Helvetica, sans-serif;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+.button{
+    background-color:RGB(1,50,67);
+    color: white;
+}
+.pic{
+    width: 400px;
+    height: 499px;
+    object-position: -5px -150px;
+}
+
+#emailInput {
+    font-size: medium;
+    width: 250px;
+    height: 40px;
+}
+#password {
+    font-size: medium;
+    width: 250px;
+    height:40px;
+}
