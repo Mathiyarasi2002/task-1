@@ -1,6 +1,7 @@
 body{
 background:url("Background.jpg");
 background-size:cover;
+overflow: hidden;
 }
 body{
     display:flex;
@@ -33,7 +34,7 @@ body{
 .pic{
     width: 400px;
     height: 499px;
-    object-position: -5px -170px;
+    object-position: -5px -156px;
 }
 
 #emailInput {
